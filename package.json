@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest --verbose --coverage",
     "start": "serve src/",
-    "eslint": "eslint --ext .jsx src/"
+    "eslint": "eslint --ext .jsx src/",
+    "pretest": "npm run eslint"
   },
   "keywords": [],
   "author": "",
